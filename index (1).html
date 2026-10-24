@@ -1,0 +1,883 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prudence (Emudianughe) Nwanozie</title>
+<meta name="description" content="Prudence (Emudianughe) Nwanozie — strategic communications, AI and media innovation, research, programme leadership and digital growth. Lagos, Nigeria.">
+<meta property="og:title" content="Prudence (Emudianughe) Nwanozie">
+<meta property="og:description" content="Connecting ideas, technology and people. Communications, AI & media innovation, research and programme leadership.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Figtree:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: newsroom-meets-edit-suite. Claims get fact-checked, career plays as an edit timeline, work opens like case files. */
+:root{
+  --paper:#F6F6FA; --surface:#FFFFFF; --ink:#18172C; --muted:#5C5B73; --line:#DEDDEA;
+  --accent:#B8175A; --accent-soft:#F9E3EC;
+  --teal:#0E7673; --teal-soft:#DDF1EF;
+  --sun:#B97A06; --sun-soft:#FBF0D6;
+  --violet:#6A4BC9; --violet-soft:#ECE7FA;
+  --blue:#2462C9; --blue-soft:#E2EBFA;
+  --shadow:0 1px 2px rgba(24,23,44,.06),0 8px 24px rgba(24,23,44,.06);
+  --f-display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --f-body:"Figtree","Helvetica Neue",Arial,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --r:14px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#121120; --surface:#1B1A2D; --ink:#EEECF8; --muted:#A6A4BD; --line:#2D2B44;
+  --accent:#F2679C; --accent-soft:#3A1828;
+  --teal:#4FD1C8; --teal-soft:#0F3332;
+  --sun:#F3C25A; --sun-soft:#3A2D10;
+  --violet:#A98FFF; --violet-soft:#2A2148;
+  --blue:#7EA8FF; --blue-soft:#1A2746;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.3);
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#121120; --surface:#1B1A2D; --ink:#EEECF8; --muted:#A6A4BD; --line:#2D2B44;
+  --accent:#F2679C; --accent-soft:#3A1828;
+  --teal:#4FD1C8; --teal-soft:#0F3332;
+  --sun:#F3C25A; --sun-soft:#3A2D10;
+  --violet:#A98FFF; --violet-soft:#2A2148;
+  --blue:#7EA8FF; --blue-soft:#1A2746;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.3);
+  color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+a{color:inherit}
+h1,h2,h3{font-family:var(--f-display);line-height:1.08;text-wrap:balance;margin:0}
+p{margin:0}
+.wrap{max-width:1160px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.mono{font-family:var(--f-mono);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase}
+.eyebrow{font-family:var(--f-mono);font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);display:flex;align-items:center;gap:10px}
+.eyebrow::before{content:"";width:22px;height:2px;background:currentColor}
+section{padding-block:88px}
+.sec-head{display:grid;gap:14px;max-width:720px;margin-bottom:40px}
+.sec-head h2{font-size:clamp(32px,4.6vw,52px);font-weight:800;letter-spacing:-.02em}
+.sec-head p{color:var(--muted);font-size:18px}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+
+/* Header */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--f-display);font-weight:800;font-size:19px}
+.logo .mark{width:34px;height:34px;border-radius:10px;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-size:15px;letter-spacing:-.03em;transition:transform .4s}
+.logo:hover .mark{transform:rotate(-8deg) scale(1.05)}
+nav.links{display:flex;gap:4px;flex-wrap:wrap}
+nav.links a{text-decoration:none;font-weight:500;font-size:15px;padding:7px 12px;border-radius:999px;color:var(--muted);transition:background .2s,color .2s}
+nav.links a:hover,nav.links a.on{background:var(--surface);color:var(--ink)}
+.cta-pill{background:var(--ink);color:var(--paper)!important;text-decoration:none;padding:9px 16px;border-radius:999px;font-weight:600;font-size:15px;white-space:nowrap}
+.menu-btn{display:none;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-weight:600}
+@media (max-width:860px){
+  nav.links{display:none;position:absolute;left:0;right:0;top:100%;background:var(--paper);border-bottom:1px solid var(--line);flex-direction:column;padding:10px max(20px,env(safe-area-inset-left,0px)) 18px}
+  nav.links.open{display:flex}
+  .menu-btn{display:block}
+  .top .cta-pill{display:none}
+}
+
+/* Hero */
+.hero{padding-block:64px 40px}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+@media (max-width:920px){.hero-grid{grid-template-columns:1fr}}
+.hero h1{font-size:clamp(46px,7.4vw,96px);font-weight:800;letter-spacing:-.035em;line-height:.95}
+.hero h1 .last{color:var(--accent)}
+.hero h1 .nee{font-size:.34em;font-weight:600;color:var(--muted);letter-spacing:-.01em;vertical-align:.6em;white-space:nowrap}
+.shelf-wrap{margin-bottom:40px}
+.shelf{display:flex;align-items:flex-end;gap:10px;overflow-x:auto;padding:28px 6px 0;border-bottom:10px solid var(--ink);border-radius:2px}
+.book{flex:none;border:0;border-radius:6px 6px 2px 2px;padding:14px 0;display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:12px;box-shadow:inset -7px 0 0 rgba(0,0,0,.07),inset 0 -4px 0 rgba(0,0,0,.05);transition:transform .25s cubic-bezier(.2,1.4,.4,1)}
+.book:hover,.book:focus-visible{transform:translateY(-14px) rotate(-2deg)}
+.book .bt,.book .bk{writing-mode:vertical-rl;transform:rotate(180deg)}
+.book .bt{font-family:var(--f-display);font-weight:700;font-size:17px;line-height:1.1}
+.book .bk{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;opacity:.8}
+.shelf-note{color:var(--muted);margin-top:10px;font-size:14.5px}
+.hero .lede{font-size:clamp(19px,2.1vw,23px);margin-top:26px;max-width:34ch;color:var(--ink)}
+.rotor{display:inline-block;position:relative;color:var(--teal);font-weight:600;border-bottom:3px solid var(--teal);min-width:4ch}
+.rotor span{display:inline-block;animation:pop .45s cubic-bezier(.2,1.4,.4,1)}
+@keyframes pop{from{transform:translateY(40%);opacity:.2}to{transform:none;opacity:1}}
+.hero .meta{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:22px;color:var(--muted);font-size:15px}
+.hero .meta b{color:var(--ink);font-weight:600}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 20px;border-radius:999px;font-weight:600;text-decoration:none;border:1.5px solid var(--ink);background:transparent;transition:transform .15s,background .2s,color .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.solid{background:var(--ink);color:var(--paper)}
+.btn.small{padding:9px 15px;font-size:15px}
+
+/* Claim checker */
+.checker{background:var(--surface);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:26px;position:relative;overflow:hidden}
+.checker-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px}
+.checker-top .mono{color:var(--muted)}
+.dots{display:flex;gap:5px}
+.dots i{width:8px;height:8px;border-radius:50%;background:var(--line);transition:background .3s}
+.dots i.done{background:var(--teal)}
+.dots i.cur{background:var(--ink)}
+.claim{font-family:var(--f-display);font-size:clamp(23px,2.6vw,29px);font-weight:600;line-height:1.2;min-height:3.6em;letter-spacing:-.01em}
+.claim::before{content:"“";color:var(--accent)}
+.claim::after{content:"”";color:var(--accent)}
+.verdict{margin-top:16px;border-top:1px dashed var(--line);padding-top:16px;display:grid;gap:8px;min-height:120px}
+.verdict .wait{color:var(--muted);font-size:15px}
+.stamp{justify-self:start;font-family:var(--f-mono);font-weight:600;font-size:15px;letter-spacing:.14em;padding:6px 12px;border:2.5px solid currentColor;border-radius:6px;transform:rotate(-4deg);animation:stamp .4s cubic-bezier(.2,1.6,.4,1)}
+.stamp.true{color:var(--teal)}.stamp.false{color:var(--accent)}.stamp.mixed{color:var(--sun)}
+@keyframes stamp{from{transform:rotate(-14deg) scale(2.2);opacity:0}to{transform:rotate(-4deg) scale(1);opacity:1}}
+.verdict p{font-size:15.5px}
+.verdict .src{font-family:var(--f-mono);font-size:11.5px;color:var(--muted);letter-spacing:.04em}
+.checker-actions{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+.checker-actions .btn{padding:10px 16px;font-size:15px}
+
+/* Stats */
+.stats{border-block:1px solid var(--line);background:var(--surface)}
+.stats .wrap{display:grid;grid-template-columns:repeat(6,1fr);padding-block:28px}
+@media (max-width:980px){.stats .wrap{grid-template-columns:repeat(3,1fr);row-gap:24px}}
+@media (max-width:520px){.stats .wrap{grid-template-columns:repeat(2,1fr)}}
+.stat{padding-inline:14px;border-left:1px solid var(--line);min-width:0}
+.stat:first-child{border-left:0;padding-left:0}
+.stat .n{font-family:var(--f-display);font-weight:800;font-size:clamp(30px,3.4vw,40px);letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.stat .l{font-size:14px;color:var(--muted);line-height:1.35}
+
+/* Lens */
+.lens{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;align-items:start}
+@media (max-width:860px){.lens{grid-template-columns:1fr}}
+.lens-tabs{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.chip{border:1.5px solid var(--line);background:var(--surface);padding:9px 15px;border-radius:999px;font-weight:600;font-size:15px;transition:all .2s}
+.chip:hover{border-color:var(--ink)}
+.chip[aria-pressed="true"],.chip[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.lens-out{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:28px;display:grid;gap:18px}
+.lens-out h3{font-size:26px;font-weight:700}
+.lens-out .picks{display:grid;gap:10px}
+.pick{display:flex;gap:14px;align-items:center;text-decoration:none;padding:12px 14px;border-radius:12px;background:var(--paper);transition:transform .2s}
+.pick:hover{transform:translateX(4px)}
+.pick .ix{font-family:var(--f-mono);font-size:12px;color:var(--accent);flex:none}
+.pick b{font-weight:600}
+.pick small{display:block;color:var(--muted);font-size:14px}
+
+/* Capabilities */
+.caps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media (max-width:1000px){.caps{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:540px){.caps{grid-template-columns:1fr}}
+.cap{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:12px;text-align:left;transition:transform .25s,box-shadow .25s,border-color .25s;min-width:0}
+.cap:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.cap .ico{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;font-family:var(--f-display);font-weight:800;font-size:18px}
+.cap h3{font-size:20px;font-weight:700}
+.cap p{color:var(--muted);font-size:15px}
+.cap ul{margin:0;padding-left:18px;font-size:14.5px;display:grid;gap:3px}
+.cap .ev{margin-top:auto;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.04em;color:var(--muted);border-top:1px dashed var(--line);padding-top:10px}
+.c-accent .ico{background:var(--accent-soft);color:var(--accent)}
+.c-teal .ico{background:var(--teal-soft);color:var(--teal)}
+.c-sun .ico{background:var(--sun-soft);color:var(--sun)}
+.c-violet .ico{background:var(--violet-soft);color:var(--violet)}
+.c-blue .ico{background:var(--blue-soft);color:var(--blue)}
+
+/* Work */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
+.work{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media (max-width:1000px){.work{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.work{grid-template-columns:1fr}}
+.case{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:0;text-align:left;display:flex;flex-direction:column;overflow:hidden;transition:transform .25s,box-shadow .25s,opacity .3s;min-width:0}
+.case:hover{transform:translateY(-4px) rotate(-.3deg);box-shadow:var(--shadow)}
+.case.hide{display:none}
+.case .band{height:92px;position:relative;display:flex;align-items:flex-end;padding:14px 20px;overflow:hidden}
+.case .band .big{position:absolute;right:-6px;bottom:-22px;font-family:var(--f-display);font-weight:800;font-size:88px;letter-spacing:-.05em;opacity:.22;line-height:1}
+.case .band .tag{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;position:relative}
+.case .body{padding:18px 20px 20px;display:grid;gap:8px;flex:1}
+.case h3{font-size:21px;font-weight:700}
+.case .role{font-size:14.5px;color:var(--muted)}
+.case .sum{font-size:15.5px}
+.case .open{margin-top:6px;font-weight:600;font-size:14.5px;display:flex;align-items:center;gap:6px;color:var(--accent)}
+.case:hover .open .arr{transform:translateX(4px)}
+.arr{transition:transform .2s;display:inline-block}
+.b-accent{background:var(--accent-soft);color:var(--accent)}
+.b-teal{background:var(--teal-soft);color:var(--teal)}
+.b-sun{background:var(--sun-soft);color:var(--sun)}
+.b-violet{background:var(--violet-soft);color:var(--violet)}
+.b-blue{background:var(--blue-soft);color:var(--blue)}
+
+dialog{border:0;padding:0;border-radius:22px;max-width:min(720px,calc(100vw - 32px));width:100%;background:var(--surface);color:var(--ink);box-shadow:0 30px 80px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(18,17,32,.55);backdrop-filter:blur(3px)}
+dialog[open]{animation:dlg .3s cubic-bezier(.2,1.2,.4,1)}
+@keyframes dlg{from{transform:translateY(24px) scale(.97);opacity:0}}
+.dlg-head{padding:26px 28px 20px;position:relative}
+.dlg-head h3{font-size:30px;font-weight:800;margin-top:6px}
+.dlg-head .role{color:var(--muted);margin-top:6px}
+.dlg-close{position:absolute;top:16px;right:16px;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--surface);font-size:20px;line-height:1}
+.dlg-body{padding:0 28px 28px;display:grid;gap:18px;max-height:62vh;overflow:auto}
+.dlg-body h4{font-family:var(--f-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.dlg-body ul{margin:0;padding-left:20px;display:grid;gap:5px}
+.dlg-body .out{display:flex;flex-wrap:wrap;gap:8px}
+.dlg-body .out span{background:var(--paper);border:1px solid var(--line);padding:6px 12px;border-radius:999px;font-size:14.5px;font-weight:600}
+.dlg-body .link{color:var(--accent);font-weight:600}
+
+/* Timeline */
+.tl-shell{background:var(--surface);border:1px solid var(--line);border-radius:20px;overflow:hidden}
+.tl-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 18px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.tc{font-family:var(--f-mono);font-size:15px;font-weight:600;font-variant-numeric:tabular-nums;background:var(--ink);color:var(--paper);padding:4px 10px;border-radius:6px}
+.tl-bar .mono{color:var(--muted)}
+.tl-scroll{overflow-x:auto}
+.tl{position:relative;min-width:1500px;padding:12px 18px 18px}
+.ruler{display:grid;grid-template-columns:120px 1fr;margin-bottom:6px}
+.ruler .ticks{position:relative;height:22px}
+.ruler .ticks span{position:absolute;font-family:var(--f-mono);font-size:11px;color:var(--muted);transform:translateX(-50%)}
+.track{display:grid;grid-template-columns:120px 1fr;align-items:center;min-height:52px;border-top:1px solid var(--line)}
+.track .name{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-right:10px}
+.track .lane{position:relative;height:52px;background-image:repeating-linear-gradient(90deg,transparent 0 calc(100%/15 - 1px),var(--line) calc(100%/15 - 1px) calc(100%/15))}
+.clip{position:absolute;top:8px;height:36px;border-radius:8px;border:0;padding:0 10px;font-size:12.5px;font-weight:600;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:transform .15s,box-shadow .2s;min-width:14px}
+.clip:hover{transform:translateY(-2px)}
+.clip.sel{box-shadow:0 0 0 2.5px var(--ink)}
+.playhead{position:absolute;top:0;bottom:0;width:2px;background:var(--accent);pointer-events:none;transition:left .5s cubic-bezier(.3,1,.4,1)}
+.playhead::before{content:"";position:absolute;top:0;left:-6px;border:7px solid transparent;border-top:9px solid var(--accent)}
+.tl-detail{border-top:1px solid var(--line);padding:22px 24px;display:grid;grid-template-columns:1fr 1.4fr;gap:24px}
+@media (max-width:760px){.tl-detail{grid-template-columns:1fr}}
+.tl-detail h3{font-size:24px;font-weight:700}
+.tl-detail .org{color:var(--muted);margin-top:4px}
+.tl-detail .when{font-family:var(--f-mono);font-size:12.5px;margin-top:10px;color:var(--accent)}
+.tl-detail ul{margin:0;padding-left:20px;display:grid;gap:6px;font-size:15.5px}
+.tl-hint{font-size:14px;color:var(--muted);padding:0 18px 14px}
+
+/* Writing */
+.pubs{display:grid;gap:0;border-top:1px solid var(--line)}
+.pub{display:grid;grid-template-columns:90px 1fr auto;gap:18px;align-items:baseline;padding:18px 4px;border-bottom:1px solid var(--line);text-decoration:none;transition:background .2s,padding .2s}
+a.pub:hover{background:var(--surface);padding-inline:14px}
+.pub .yr{font-family:var(--f-mono);font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.pub .t{font-family:var(--f-display);font-weight:600;font-size:19px;line-height:1.25}
+.pub .w{display:block;font-family:var(--f-body);font-weight:400;font-size:14.5px;color:var(--muted);margin-top:3px}
+.pub .k{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:4px 9px;border-radius:999px;white-space:nowrap}
+.pub.hide{display:none}
+@media (max-width:640px){.pub{grid-template-columns:1fr;gap:4px}.pub .k{justify-self:start}}
+
+/* Edu + fellowships */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+@media (max-width:860px){.two{grid-template-columns:1fr}}
+.edu{display:grid;gap:14px}
+.edu-item{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;display:grid;grid-template-columns:auto 1fr;gap:4px 18px}
+.edu-item .deg{grid-row:span 3;font-family:var(--f-display);font-weight:800;font-size:28px;color:var(--teal);line-height:1}
+.edu-item b{font-weight:600}
+.edu-item small{color:var(--muted);font-size:14.5px}
+.edu-item .st{font-family:var(--f-mono);font-size:11.5px;color:var(--accent);letter-spacing:.05em}
+.fellow{display:flex;flex-wrap:wrap;gap:10px}
+.fellow span{background:var(--surface);border:1px solid var(--line);padding:9px 14px;border-radius:12px;font-size:15px;transition:transform .2s,border-color .2s}
+.fellow span:hover{transform:rotate(-2deg) translateY(-2px);border-color:var(--accent)}
+.fellow span em{font-style:normal;font-family:var(--f-mono);font-size:12px;color:var(--muted);margin-left:6px}
+
+/* Contact */
+.contact{background:var(--ink);color:var(--paper);border-radius:28px;padding:clamp(28px,5vw,56px);display:grid;grid-template-columns:1fr 1fr;gap:40px}
+@media (max-width:860px){.contact{grid-template-columns:1fr}}
+.contact h2{font-size:clamp(34px,5vw,58px);font-weight:800;letter-spacing:-.03em}
+.contact p.s{opacity:.75;margin-top:14px;font-size:18px}
+.contact .eyebrow{color:var(--paper);opacity:.8}
+.mailrow{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:26px}
+.mailrow code{font-family:var(--f-mono);font-size:15px;background:color-mix(in srgb,var(--paper) 12%,transparent);padding:10px 14px;border-radius:10px;user-select:all;word-break:break-all}
+.contact .btn{border-color:var(--paper);color:var(--paper)}
+.contact .btn.solid{background:var(--paper);color:var(--ink)}
+.composer{background:color-mix(in srgb,var(--paper) 7%,transparent);border:1px solid color-mix(in srgb,var(--paper) 18%,transparent);border-radius:18px;padding:22px;display:grid;gap:14px;min-width:0}
+.composer .mono{opacity:.7}
+.topics{display:flex;flex-wrap:wrap;gap:8px}
+.topics button{border:1.5px solid color-mix(in srgb,var(--paper) 30%,transparent);background:transparent;color:var(--paper);padding:7px 13px;border-radius:999px;font-size:14.5px;font-weight:500;transition:all .2s}
+.topics button[aria-pressed="true"]{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+.composer textarea{width:100%;min-height:130px;resize:vertical;border-radius:12px;border:1px solid color-mix(in srgb,var(--paper) 25%,transparent);background:color-mix(in srgb,var(--paper) 5%,transparent);color:var(--paper);padding:12px 14px;font:inherit;font-size:15px;line-height:1.5}
+.toast{font-family:var(--f-mono);font-size:12.5px;min-height:1.2em;opacity:.85}
+footer{padding-block:36px 48px;color:var(--muted);font-size:14.5px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+.view{display:none}
+.view.active{display:block;animation:viewIn .45s cubic-bezier(.2,.8,.2,1)}
+@keyframes viewIn{from{transform:translateY(10px)}}
+.about-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:48px}
+@media (max-width:860px){.about-grid{grid-template-columns:1fr}}
+.prose{display:grid;gap:18px;max-width:64ch;font-size:18px}
+.prose p:first-child{font-family:var(--f-display);font-size:clamp(22px,2.4vw,27px);line-height:1.3;font-weight:600}
+.path{display:grid;gap:0;border-left:2px solid var(--line);padding-left:22px}
+.path div{position:relative;padding-block:10px}
+.path div::before{content:"";position:absolute;left:-29px;top:18px;width:12px;height:12px;border-radius:50%;background:var(--surface);border:2.5px solid var(--accent)}
+.path b{display:block;font-family:var(--f-display);font-size:18px}
+.path small{color:var(--muted);font-size:14.5px}
+.skill-split{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+@media (max-width:700px){.skill-split{grid-template-columns:1fr}}
+.skill-split > div{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px}
+.skill-split h3{font-size:18px;margin-bottom:10px}
+.skill-split .tags{display:flex;flex-wrap:wrap;gap:6px}
+.skill-split .tags span{font-size:14px;padding:5px 10px;border-radius:999px;background:var(--paper);border:1px solid var(--line)}
+.cvs{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+@media (max-width:700px){.cvs{grid-template-columns:1fr}}
+.cvcard{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px;display:grid;gap:10px;align-content:start;min-width:0}
+.cvcard .doc{width:44px;height:56px;border-radius:6px;border:2px solid currentColor;position:relative;display:grid;place-items:center;font-family:var(--f-mono);font-size:10px;font-weight:600}
+.cvcard .doc::after{content:"";position:absolute;top:-2px;right:-2px;width:14px;height:14px;background:var(--surface);border-left:2px solid currentColor;border-bottom:2px solid currentColor}
+.cvcard h3{font-size:20px}
+.cvcard p{color:var(--muted);font-size:15px}
+.cvcard .status{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.05em;color:var(--muted)}
+.reveal{transform:translateY(14px);transition:transform .7s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{transform:none}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
+
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#home"><span class="mark">PN</span><span>Prudence</span></a>
+    <nav class="links" id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#journey">Experience</a>
+      <a href="#writing">Research &amp; writing</a>
+      <a href="#cv">CV &amp; resources</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div style="display:flex;gap:10px;align-items:center">
+      <a class="cta-pill" href="#contact">Let's talk</a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="view active" id="home" data-view="home">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Lagos, Nigeria · Communications · AI · Research</div>
+      <h1 style="margin-top:18px">Prudence <span class="nee">(Emudianughe)</span><br><span class="last">Nwanozie</span></h1>
+      <p class="mono" style="margin-top:14px;color:var(--muted)">Earlier work published as Prudence Emudianughe</p>
+      <p class="lede">I help ideas reach people through <span class="rotor" aria-live="polite"><span id="rotor">stories</span></span>.</p>
+      <div class="meta">
+        <span><b>Research, Growth &amp; Authors Community Lead</b> at Jackobian</span>
+        <span><b>PhD candidate</b>, University of Port Harcourt</span>
+      </div>
+      <div class="hero-actions">
+        <a class="btn solid" href="#work">See my work <span class="arr">→</span></a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </div>
+
+    <div class="checker" aria-label="Fact-check Prudence">
+      <div class="checker-top">
+        <span class="mono">Fact-check me · <span id="cCount">1</span>/<span id="cTotal">7</span></span>
+        <div class="dots" id="dots"></div>
+      </div>
+      <p class="claim" id="claim"></p>
+      <div class="verdict" id="verdict" aria-live="polite"></div>
+      <div class="checker-actions">
+        <button class="btn solid" id="checkBtn">Fact-check this claim</button>
+        <button class="btn" id="nextBtn">Next claim →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="stats">
+  <div class="wrap">
+    <div class="stat"><div class="n" data-count="15000" data-suffix="+">15,000+</div><div class="l">users on an AI fact-checking tool I helped launch</div></div>
+    <div class="stat"><div class="n" data-count="75" data-suffix="+">75+</div><div class="l">journalists trained across Africa</div></div>
+    <div class="stat"><div class="n" data-count="25" data-suffix="+">25+</div><div class="l">training sessions coordinated and moderated</div></div>
+    <div class="stat"><div class="n" data-count="1509">1,509</div><div class="l">people reached by a diabetes outreach in 8 LGAs</div></div>
+    <div class="stat"><div class="n" data-count="49" data-suffix="k+">49k+</div><div class="l">YouTube views on my health short film</div></div>
+    <div class="stat"><div class="n" data-count="3000" data-suffix="+">3,000+</div><div class="l">prospects in a CRM pipeline I built</div></div>
+  </div>
+</div>
+
+<section id="lens">
+  <div class="wrap lens">
+    <div class="sec-head" style="margin:0">
+      <div class="eyebrow">Start here</div>
+      <h2>Who's visiting?</h2>
+      <p>My work crosses media, technology, research and programmes. Pick what brings you here and I'll point you to the most useful evidence.</p>
+      <div class="lens-tabs" role="tablist" id="lensTabs"></div>
+    </div>
+    <div class="lens-out" id="lensOut"></div>
+  </div>
+</section>
+
+<section id="skills" style="padding-top:20px">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">What I do</div>
+      <h2>Eight things I'm good at, with proof</h2>
+      <p>Each area lists the tasks I handle and where I've done them.</p>
+    </div>
+    <div class="caps" id="caps"></div>
+    <div class="skill-split">
+      <div><h3>Tools I use at work</h3><div class="tags"><span>Google Sheets CRM</span><span>Google Apps Script</span><span>Adobe Premiere Pro</span><span>Canva</span><span>Microsoft Office</span><span>Social media management</span></div></div>
+      <div><h3>Still learning</h3><div class="tags"><span>Responsive web design</span><span>Figma</span><span>Git &amp; GitHub</span></div><p style="color:var(--muted);font-size:14.5px;margin-top:10px">I've written beginner tutorials on these, but they aren't part of my day job.</p></div>
+    </div>
+  </div>
+</section>
+</div>
+
+<div class="view" id="about" data-view="about">
+<section>
+  <div class="wrap about-grid">
+    <div>
+      <div class="sec-head" style="margin-bottom:28px"><div class="eyebrow">About me</div><h2>From the edit suite to AI newsrooms</h2></div>
+      <div class="prose">
+        <p>I work where communication meets technology. I help people understand complex ideas, and I build the programmes and systems that turn those ideas into results.</p>
+        <p>I started with language. My first degree was in Linguistics and Communication Studies, and my undergraduate research documented endangered indigenous languages of Nigeria. From there I moved into media production. I edited long-form and short-form programmes at the Anambra Broadcasting Service, edited Nigerian comedy skits for creators like Mr Funny and Wonder D'talk, and made a short film about Rhesus factor awareness.</p>
+        <p>As misinformation became one of the biggest problems facing African media, my work moved toward AI and verification. At MyAIFactChecker I coordinated operations for an AI fact-checking tool used by more than 15,000 people. At FactCheckAfrica I led a fellowship that trained over 75 journalists to use AI tools responsibly.</p>
+        <p>I also work in growth and community. I've built pipelines and automated follow-ups for advertiser acquisition, grown an academic authors community, run digital campaigns for global advocacy and designed public health campaigns for communities in Delta State.</p>
+        <p>My PhD research at the University of Port Harcourt looks at generative AI and Nigerian Pidgin journalism, especially translation ethics and low-resource languages. It brings me back to where I started, with language.</p>
+        <p>I also write for students and young readers: a novella, a children's story about climate action, books on journalism and public relations, and a video course for new journalists.</p>
+      </div>
+    </div>
+    <div>
+      <div class="sec-head" style="margin-bottom:20px"><div class="eyebrow">How it connects</div></div>
+      <div class="path">
+        <div><b>Language</b><small>Linguistics, indigenous languages</small></div>
+        <div><b>Media</b><small>Broadcast editing, film, poetry</small></div>
+        <div><b>Truth</b><small>Fact-checking, AI journalism</small></div>
+        <div><b>People</b><small>Fellowships, communities, health outreach</small></div>
+        <div><b>Growth</b><small>Partnerships, pipelines, automation</small></div>
+        <div><b>Evidence</b><small>Doctoral research on generative AI</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<div class="view" id="work" data-view="work">
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Selected work</div>
+      <h2>Case files</h2>
+      <p>Open any card to see the context, my role, what I did and what came of it.</p>
+    </div>
+    <div class="filters" id="workFilters" role="tablist"></div>
+    <div class="work" id="workGrid"></div>
+  </div>
+</section>
+</div>
+
+<div class="view" id="journey" data-view="journey">
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Journey</div>
+      <h2>The edit timeline</h2>
+      <p>I started in a broadcast edit suite, so here's my career laid out like a project timeline. Click any clip.</p>
+    </div>
+    <div class="tl-shell">
+      <div class="tl-bar">
+        <span class="tc" id="tc">00:2026:07:00</span>
+        <span class="mono" id="tlTitle">Business Development Lead</span>
+      </div>
+      <div class="tl-scroll"><div class="tl" id="tl"></div></div>
+      <p class="tl-hint">Scroll sideways on small screens. Use Tab and Enter to move between clips.</p>
+      <div class="tl-detail" id="tlDetail"></div>
+    </div>
+  </div>
+</section>
+<section style="padding-top:0">
+  <div class="wrap two">
+    <div>
+      <div class="sec-head" style="margin-bottom:24px"><div class="eyebrow">Education</div><h2 style="font-size:clamp(28px,3.4vw,38px)">University of Port Harcourt, three times</h2></div>
+      <div class="edu">
+        <div class="edu-item"><span class="deg">PhD</span><b>Journalism and Media Studies</b><small>2024 – present · Generative AI and Nigerian Pidgin journalism, translation ethics, low-resource languages</small><span class="st">In progress</span></div>
+        <div class="edu-item"><span class="deg">MA</span><b>Communication Studies</b><small>2019 – 2023 · Framing, representation and public engagement with health issues</small><span class="st">Completed</span></div>
+        <div class="edu-item"><span class="deg">BA</span><b>Linguistics and Communication Studies</b><small>2012 – 2016 · Documenting endangered indigenous languages of Nigeria</small><span class="st">Completed</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="sec-head" style="margin-bottom:24px"><div class="eyebrow">Fellowships &amp; programmes</div><h2 style="font-size:clamp(28px,3.4vw,38px)">Rooms I've been in</h2></div>
+      <div class="fellow" id="fellow"></div>
+    </div>
+  </div>
+</section>
+</div>
+
+<div class="view" id="writing" data-view="writing">
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Research &amp; writing</div>
+      <h2>Books, papers, articles and poems</h2>
+      <p>Books for students and young readers, research papers, journalism and poetry. Pull a book off the shelf to see what it's about.</p>
+    </div>
+    <div class="shelf-wrap"><span class="mono" style="color:var(--muted)">My bookshelf · on Jackobian</span><div class="shelf" id="shelf"></div><p class="shelf-note">Six books and courses, including two stories for young readers.</p></div>
+    <div class="filters" id="pubFilters" role="tablist"></div>
+    <div class="pubs" id="pubs"></div>
+    <div class="skill-split">
+      <div><h3>Courses I can teach</h3><div class="tags"><span>AI and Journalism</span><span>AI in Higher Education</span><span>Communication Theories</span><span>Digital Journalism</span><span>Digital Literacy</span><span>Health &amp; Development Communication</span><span>Research Methods in Communication</span></div></div>
+      <div><h3>Research interests</h3><div class="tags"><span>AI in higher education</span><span>Academic publishing</span><span>Education policy</span><span>AI governance</span><span>Responsible AI adoption</span><span>Media technologies and society</span></div></div>
+    </div>
+  </div>
+</section>
+</div>
+
+<div class="view" id="cv" data-view="cv">
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">CV &amp; resources</div>
+      <h2>A CV for every kind of role</h2>
+      <p>I keep tailored versions of my CV. Pick the one closest to your opening and I'll send it straight away.</p>
+    </div>
+    <div class="cvs" id="cvs"></div>
+  </div>
+</section>
+</div>
+
+<div class="view" id="contact" data-view="contact">
+<section>
+  <div class="wrap">
+    <div class="contact">
+      <div>
+        <div class="eyebrow">Contact</div>
+        <h2 style="margin-top:14px">Have a project, role or research idea?</h2>
+        <p class="s">I'm open to communications and programme roles, consulting, research collaborations, training and facilitation, and AI and media innovation work.</p>
+        <div class="mailrow">
+          <code id="email">prudenceemudianughe@gmail.com</code>
+          <button class="btn solid small" id="copyMail">Copy email</button>
+        </div>
+        <div class="mailrow">
+          <a class="btn small" href="https://www.linkedin.com/in/prudence-emudianughe-72a42119a" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a class="btn small" href="https://youtu.be/chvcAikDBf0" target="_blank" rel="noopener">Watch my film ↗</a>
+        </div>
+      </div>
+      <div class="composer">
+        <span class="mono">Draft a message in 10 seconds</span>
+        <div class="topics" id="topics"></div>
+        <label for="msg" class="mono" style="opacity:.6">Your draft</label>
+        <textarea id="msg"></textarea>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+          <button class="btn solid small" id="copyMsg">Copy message</button>
+          <span class="toast" id="toast" aria-live="polite"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</main>
+
+<footer><div class="wrap"><span>© 2026 Prudence Okeoghene (Emudianughe) Nwanozie</span><span>Lagos, Nigeria · References available on request</span></div></footer>
+
+<dialog id="dlg" aria-labelledby="dlgTitle">
+  <div class="dlg-head" id="dlgHead">
+    <button class="dlg-close" id="dlgClose" aria-label="Close">×</button>
+    <span class="mono" id="dlgTag"></span>
+    <h3 id="dlgTitle"></h3>
+    <p class="role" id="dlgRole"></p>
+  </div>
+  <div class="dlg-body" id="dlgBody"></div>
+</dialog>
+
+<script>
+const $ = s => document.querySelector(s);
+const el = (t, a = {}, h = '') => { const e = document.createElement(t); for (const k in a) e.setAttribute(k, a[k]); e.innerHTML = h; return e; };
+
+/* Rotating word */
+const words = ['stories','research','programmes','partnerships','AI tools','film','clear writing'];
+let wi = 0;
+if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  setInterval(() => { wi = (wi + 1) % words.length; const r = $('#rotor'); const n = el('span', {id:'rotor'}, words[wi]); r.replaceWith(n); }, 2200);
+}
+
+/* Claim checker */
+const claims = [
+  {c:'Prudence helped grow an AI fact-checking tool to more than 15,000 users.', v:'true', l:'TRUE', x:'As Chief Operations Officer of MyAIFactChecker (2024–2025), she coordinated product, media and partnership work and supported its place in the Google for Startups Accelerator.', s:'Source: CV, MyAIFactChecker'},
+  {c:'She ran an AI journalism fellowship for 75+ journalists across Africa.', v:'true', l:'TRUE', x:'As Programme Lead at FactCheckAfrica, she designed the programme, led curriculum and partnerships, and moderated 25+ training sessions.', s:'Source: CV, FactCheckAfrica'},
+  {c:'She built the Earn4rmAds advertising platform.', v:'mixed', l:'MISLEADING', x:'She built the CRM automation behind the business development pipeline: a Google Sheets system with Apps Script reminders that flags overdue prospects across 3,000+ leads. The platform itself was built by the product team.', s:'Source: CV, Adverion Nigeria'},
+  {c:'Her short film on Rhesus factor reached 49,000+ viewers on YouTube.', v:'true', l:'TRUE', x:'She wrote, directed and edited Out of the Dark (2021) to explain Rhesus factor and maternal health in a story people would actually watch.', s:'Source: YouTube, CV'},
+  {c:'She only does marketing.', v:'false', l:'FALSE', x:'She is also a PhD researcher, a former broadcast video editor, a programme lead, a health communicator and a published poet.', s:'Source: this whole website'},
+  {c:'A diabetes awareness outreach she worked on reached 1,509 people.', v:'true', l:'TRUE', x:'As Communications and Design Lead, she designed every campaign material and coordinated media coverage across eight local government areas in Delta State.', s:'Source: CV, campaign portfolio'},
+  {c:'She has had poetry published.', v:'true', l:'TRUE', x:'Her poems have appeared in Agbowo, Parousia Magazine, Barren Magazine and Room Magazine.', s:'Source: writing portfolio'},
+  {c:'Prudence Nwanozie and Prudence Emudianughe are the same person.', v:'true', l:'TRUE', x:'She married and took the name Nwanozie. Her earlier papers, poems, books and roles are published under Emudianughe, so both names lead to her.', s:'Source: Prudence herself'},
+  {c:'She has written a novella for young readers.', v:'true', l:'TRUE', x:'The Pity Stories follows Esosa, an eleven-year-old new girl who learns that people pay attention when they feel sorry for you. She also wrote When the Sky Turned Blue, a children\'s story about climate action.', s:'Source: Jackobian'},
+  {c:'Before AI and fact-checking, she was editing Nigerian comedy skits.', v:'true', l:'TRUE', x:'In 2021 she edited skits at Jaystar & Zeke Studio Africa for creators including Mr Funny and Wonder D\'talk.', s:'Source: portfolio'},
+  {c:'She has edited both long-form TV programmes and short-form content.', v:'true', l:'TRUE', x:'As Programmes Video Editor at the Anambra Broadcasting Service (2018–2019), she edited long-form programmes and short-form content for broadcast.', s:'Source: CV, portfolio'}
+];
+let ci = 0, checked = new Set();
+$('#cTotal').textContent = claims.length;
+const dots = $('#dots'); claims.forEach(() => dots.appendChild(el('i')));
+function renderClaim(){
+  $('#claim').textContent = claims[ci].c;
+  $('#cCount').textContent = ci + 1;
+  $('#verdict').innerHTML = '<p class="wait">Is this claim true? Check it against the record.</p>';
+  $('#checkBtn').disabled = false; $('#checkBtn').style.opacity = 1;
+  [...dots.children].forEach((d,i) => { d.className = checked.has(i) ? 'done' : (i === ci ? 'cur' : ''); });
+}
+$('#checkBtn').onclick = () => {
+  const k = claims[ci]; checked.add(ci);
+  $('#verdict').innerHTML = `<span class="stamp ${k.v}">${k.l}</span><p>${k.x}</p><span class="src">${k.s}</span>`;
+  $('#checkBtn').disabled = true; $('#checkBtn').style.opacity = .45;
+  [...dots.children].forEach((d,i) => { d.className = checked.has(i) ? 'done' : (i === ci ? 'cur' : ''); });
+};
+$('#nextBtn').onclick = () => { ci = (ci + 1) % claims.length; renderClaim(); };
+renderClaim();
+
+/* Count-up */
+const fmt = n => n.toLocaleString('en-US');
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if (!e.isIntersecting) return; const n = e.target; io.unobserve(n);
+  const end = +n.dataset.count, suf = n.dataset.suffix || '', t0 = performance.now(), dur = 1100;
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const step = t => { const p = Math.min(1,(t - t0)/dur), v = Math.round(end * (1 - Math.pow(1-p,3))); n.textContent = fmt(v) + suf; if (p < 1) requestAnimationFrame(step); };
+  requestAnimationFrame(step);
+}), {threshold:.6});
+document.querySelectorAll('[data-count]').forEach(n => io.observe(n));
+
+/* Lens */
+const lenses = {
+  'Hiring manager': {h:'A communicator who also runs the operation', p:'I combine strategy with delivery. I have led programmes, coordinated cross-functional teams and built the systems that keep follow-ups from slipping.', picks:[['#work','MyAIFactChecker','Operations and adoption for a 15,000+ user product'],['#work','AI Journalism Fellowship','Designing and running a training programme'],['#journey','Full work history','Roles, dates and responsibilities']]},
+  'Researcher': {h:'Studying how AI changes newsrooms and universities', p:'My PhD research looks at generative AI and Nigerian Pidgin journalism, with a focus on translation ethics and low-resource languages. I also publish on health communication and AI ethics.', picks:[['#writing','Papers and presentations','ACCE, AMCRON, UNN and Lagos Studies Association'],['#writing','Health and New Media Research (2024)','Film and sickle cell awareness'],['#writing','Courses I can teach','AI and journalism, research methods, digital literacy']]},
+  'Client': {h:'Clear messaging, campaigns and content that gets used', p:'I plan content, design campaign materials, edit video and write for public audiences. Health, advocacy, tech and education are my strongest areas.', picks:[['#work','Global Activists Network','30% lift in audience engagement'],['#work','Diabetes sensitisation outreach','Campaign design reaching 1,509 people'],['#work','Out of the Dark','A health short film with 49k+ views']]},
+  'Collaborator': {h:'Partnerships, communities and programmes that last', p:'I like work that brings people together: fellows, facilitators, academic authors, advertisers and community groups.', picks:[['#work','Jackobian authors community','Growth and engagement for an academic platform'],['#work','Earn4rmAds pipeline','Partner and advertiser outreach'],['#contact','Start a conversation','Draft a message in seconds']]}
+};
+const lt = $('#lensTabs');
+Object.keys(lenses).forEach((k,i) => { const b = el('button',{class:'chip',role:'tab','aria-selected':i===0}, k); b.onclick = () => setLens(k); lt.appendChild(b); });
+function setLens(k){
+  [...lt.children].forEach(b => b.setAttribute('aria-selected', b.textContent === k));
+  const L = lenses[k];
+  $('#lensOut').innerHTML = `<span class="mono" style="color:var(--muted)">For a ${k.toLowerCase()}</span><h3>${L.h}</h3><p>${L.p}</p><div class="picks">${L.picks.map((p,i)=>`<a class="pick" href="${p[0]}"><span class="ix">0${i+1}</span><span><b>${p[1]}</b><small>${p[2]}</small></span></a>`).join('')}</div>`;
+}
+setLens('Hiring manager');
+
+/* Capabilities */
+const caps = [
+  ['accent','Co','Strategic communications','Turning complex ideas into messages people understand and act on.',['Content strategy and campaigns','Media and public relations','Annual reports and comms materials'],'Global Activists Network · MyAIFactChecker'],
+  ['teal','Ai','AI & media innovation','Helping journalists and organisations use AI responsibly.',['AI literacy resources','Fact-checking and misinformation','Product adoption among newsrooms'],'MyAIFactChecker · FactCheckAfrica'],
+  ['sun','Pr','Programme leadership','Running learning programmes from design through delivery.',['Curriculum development','Facilitator and moderator coordination','Participant engagement'],'AI Journalism Fellowship · 25+ sessions'],
+  ['violet','Re','Research & academic writing','Producing evidence on AI, media, health and education.',['Qualitative and survey research','Conference papers','Courses: AI & journalism, research methods'],'PhD research · HNMR 2024 · ACCE 2025'],
+  ['blue','Bd','Business development','Finding, following up and activating the right customers.',['Prospect research and outreach','Onboarding and campaign activation','Pilot programmes'],'Earn4rmAds · 17 live advertiser campaigns'],
+  ['teal','Sy','Systems & automation','Building simple tools that stop work from falling through the cracks.',['CRM design in Google Sheets','Apps Script reminders and overdue flags','Reporting and handover docs'],'Earn4rmAds CRM · 3,000+ prospects'],
+  ['accent','Cm','Community & partnerships','Bringing the right people in and keeping them engaged.',['Stakeholder engagement','Author and community management','Health outreach with policymakers'],'Jackobian · Diabetes outreach'],
+  ['violet','Fi','Film & storytelling','Telling stories visually, from script to final cut.',['Scriptwriting and directing','Long- and short-form video editing (Premiere Pro)','Comedy skits for social media'],'ABS · comedy skits · Out of the Dark']
+];
+const capsEl = $('#caps');
+caps.forEach(c => capsEl.appendChild(el('article',{class:`cap c-${c[0]} reveal`},`<span class="ico">${c[1]}</span><h3>${c[2]}</h3><p>${c[3]}</p><ul>${c[4].map(x=>`<li>${x}</li>`).join('')}</ul><span class="ev">Evidence: ${c[5]}</span>`)));
+
+/* Work */
+const work = [
+  {id:'maf', cat:'AI & media', col:'teal', big:'15k', tag:'AI product · 2024–2025', t:'MyAIFactChecker', role:'Chief Operations Officer & Communications Manager', sum:'Launching and scaling an AI-driven fact-checking tool for African audiences.',
+   ctx:'Misinformation spreads faster than newsrooms can verify it. MyAIFactChecker is an AI-powered tool that helps journalists and the public check claims.',
+   did:['Coordinated product, media and partnership workstreams across the team','Led adoption strategies for journalists and media organisations','Built AI-literacy resources and public communication on responsible AI use','Supported research and stakeholder engagement with journalists and technology partners','Supported the organisation through the Google for Startups Accelerator'],
+   out:['15,000+ users','Google for Startups Accelerator (2024)']},
+  {id:'fel', cat:'Programmes', col:'sun', big:'75+', tag:'Programme · 2024–2025', t:'AI Journalism Fellowship', role:'Programme Lead, FactCheckAfrica', sum:'Training African journalists to use AI tools against misinformation.',
+   ctx:'Journalists across Africa needed practical, hands-on training on AI tools for verification and reporting.',
+   did:['Designed the capacity-building programme and led curriculum development','Managed partnerships and programme communications','Ran multi-team operations covering moderators, content and engagement','Coordinated facilitators and moderated sessions'],
+   out:['75+ journalists and media professionals','25+ training sessions'], link:['https://factcheckafrica.net/introducing-ai-journalism-fellowship-program-west-africa-cohort-of-2024/','Read the programme announcement ↗']},
+  {id:'crm', cat:'Growth', col:'blue', big:'17', tag:'Growth & systems · Jul–Oct 2026', t:'Earn4rmAds advertiser pipeline', role:'Business Development Lead, Adverion Nigeria', sum:'Taking an ad-rewards platform from pilot to 17 live advertiser campaigns.',
+   ctx:'Adverion runs Earn4rmAds, a Nigerian ad-rewards platform. With thousands of potential advertisers, follow-ups were easy to lose.',
+   did:['Designed a CRM in Google Sheets to centralise the advertiser database','Used Google Apps Script to send email reminders and flag overdue prospects','Tracked each prospect from outreach to approval, onboarding and campaign activation','Built a ranked list of nearly 500 brands and reached decision-makers by email, phone, LinkedIn and WhatsApp','Supported the 30-day advertiser pilot and reactivated 9 low-running campaigns','Opened VAS, aggregator and affiliate partnerships, including a live partnership with NitroSwitch','Demoed the product at industry events including the 53rd AAAN AGM and GITEX Nigeria','Wrote pitch decks, sign-up guides, campaign reports and weekly KPI reports, then handed over the pipeline when my role ended in October 2026'],
+   out:['22 pilot advertisers signed up','17 brands running live campaigns','9 campaigns reactivated','86 agencies reached','3,000+ prospects in the CRM'], link:['https://prudence97.github.io/prudence-emudianughe-marketing-portfolio/','See the full business development portfolio ↗'], note:'I built the pipeline and automation, not the Earn4rmAds platform itself.'},
+  {id:'jak', cat:'Programmes', col:'violet', big:'Au', tag:'EdTech · 2026–', t:'Jackobian authors community', role:'Research, Growth & Authors Community Lead', sum:'Growing a digital academic publishing platform and its community of authors.',
+   ctx:'Jackobian is a platform where lecturers, researchers and students publish, distribute and earn from teaching and learning materials.',
+   did:['Lead content strategy and growth initiatives','Manage the authors community and support academics in publishing and monetising their work','Create evidence-based content on digital scholarship and responsible AI','Build engagement with universities, lecturers and researchers'],
+   out:['6 published books and courses','2 children\'s stories'], link:['https://www.jackobian.app/authors/AU7624623/prudence-emudianughe','See my author page ↗']},
+  {id:'gan', cat:'Communications', col:'accent', big:'30%', tag:'Advocacy · 2024–2025', t:'Global Activists Network', role:'Content and Media Strategist (UK, remote)', sum:'Digital storytelling for grassroots changemakers working on the SDGs.',
+   ctx:'GAN amplifies grassroots changemakers advancing the Sustainable Development Goals around the world.',
+   did:['Developed content strategy and ran the Changemaker Spotlight series across six continents','Designed visual assets and branded materials for LinkedIn and other platforms','Promoted monthly webinars and X Spaces with international experts','Designed the 2024 Annual Report'],
+   out:['30% increase in audience engagement','30+ changemakers spotlighted','11 webinars','16 X Spaces']},
+  {id:'dia', cat:'Public health', col:'teal', big:'1.5k', tag:'Public health · 2025–2026', t:'Diabetes sensitisation outreach', role:'Communications and Design Lead', sum:'A senatorial-backed health campaign across Delta Central.',
+   ctx:'Diabetes information is often too technical for the communities that need it most.',
+   did:['Designed all campaign graphics, banners, flyers and awareness materials','Wrote audience-friendly health messages with healthcare professionals','Coordinated media coverage before, during and after the outreach','Kept branding consistent across digital and offline channels'],
+   out:['1,509 community members reached','8 local government areas']},
+  {id:'ood', cat:'Creative', col:'violet', big:'49k', tag:'Film · 2021', t:'Out of the Dark', role:'Writer, director and editor', sum:'A short film that explains Rhesus factor and maternal health.',
+   ctx:'Rhesus factor is poorly understood, yet it matters for maternal and newborn health.',
+   did:['Wrote the script','Directed the production','Edited the final film','Used narrative to make health information memorable'],
+   out:['49,000+ YouTube views'], link:['https://youtu.be/chvcAikDBf0','Watch on YouTube ↗']},
+  {id:'abs', cat:'Creative', col:'accent', big:'TV', tag:'Broadcast · 2018–2019', t:'Anambra Broadcasting Service', role:'Programmes Video Editor', sum:'Editing long-form TV programmes and short-form broadcast content.',
+   ctx:'A state broadcaster producing daily television content for public audiences.',
+   did:['Edited long-form television programmes and short-form content for broadcast','Worked with producers and reporters to shape visual stories','Applied editing techniques to improve pacing and audience engagement'],
+   out:['Long-form programmes','Short-form content','Aug 2018 – Dec 2019']},
+  {id:'skit', cat:'Creative', col:'sun', big:'LOL', tag:'Digital studio · 2021', t:'Nigerian comedy skits', role:'Video Editor, Jaystar & Zeke Studio Africa', sum:'Editing comedy skits for popular Nigerian creators, including Mr Funny and Wonder D\'talk.',
+   ctx:'Nigerian skit comedy is one of the fastest-moving forms of online entertainment, and a joke only lands if the timing is right.',
+   did:['Edited comedy skits for creators including Mr Funny and Wonder D\'talk','Edited for comic timing and pacing','Produced short-form videos for social media audiences','Edited wedding and ceremony videos'],
+   out:['Short-form social video','Comedy editing','Wedding & ceremony videos'],
+   links:[['https://www.facebook.com/wonderdtalkofficial/videos/1041816456295785/','Men of Little Faith'],['https://www.facebook.com/wonderdtalkofficial/videos/163098355532605/','The Translator'],['https://www.facebook.com/wonderdtalkofficial/videos/189730119318809/','He That Runs Today'],['https://www.facebook.com/wonderdtalkofficial/videos/1020233991831264/','Who Does That? (Mr Funny × Wonder D\'talk)']]}
+];
+const cats = ['All', ...new Set(work.map(w => w.cat))];
+const wf = $('#workFilters'), wg = $('#workGrid');
+cats.forEach((c,i) => { const b = el('button',{class:'chip',role:'tab','aria-selected':i===0},c); b.onclick = () => { [...wf.children].forEach(x => x.setAttribute('aria-selected', x===b)); [...wg.children].forEach(card => card.classList.toggle('hide', c!=='All' && card.dataset.cat!==c)); }; wf.appendChild(b); });
+work.forEach(w => {
+  const b = el('button',{class:'case reveal','data-cat':w.cat,'aria-haspopup':'dialog'},
+   `<div class="band b-${w.col}"><span class="tag">${w.tag}</span><span class="big" aria-hidden="true">${w.big}</span></div>
+    <div class="body"><h3>${w.t}</h3><span class="role">${w.role}</span><p class="sum">${w.sum}</p><span class="open">Open case file <span class="arr">→</span></span></div>`);
+  b.onclick = () => openCase(w); wg.appendChild(b);
+});
+const dlg = $('#dlg');
+function openCase(w){
+  $('#dlgHead').className = 'dlg-head b-' + w.col;
+  $('#dlgTag').textContent = w.tag; $('#dlgTitle').textContent = w.t; $('#dlgRole').textContent = w.role;
+  $('#dlgBody').innerHTML = `<div><h4>${w.ctxTitle||'Context'}</h4><p>${w.ctx}</p></div>
+   <div><h4>${w.didTitle||'What I did'}</h4><ul>${w.did.map(d=>`<li>${d}</li>`).join('')}</ul></div>
+   <div><h4>${w.outTitle||'Outcomes'}</h4><div class="out">${w.out.map(o=>`<span>${o}</span>`).join('')}</div></div>
+   ${w.note?`<p style="color:var(--muted);font-size:15px"><b>Note:</b> ${w.note}</p>`:''}
+   ${w.links?`<div><h4>Watch the skits</h4><div class="out">${w.links.map(l=>`<a class="link" style="padding:6px 12px;border:1px solid var(--line);border-radius:999px;text-decoration:none" href="${l[0]}" target="_blank" rel="noopener">${l[1]} ↗</a>`).join('')}</div></div>`:''}
+   ${w.link?`<a class="link" href="${w.link[0]}" target="_blank" rel="noopener">${w.link[1]}</a>`:''}`;
+  dlg.showModal();
+}
+$('#dlgClose').onclick = () => dlg.close();
+dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+
+/* Timeline */
+const Y0 = 2012, Y1 = 2027, span = Y1 - Y0;
+const tracks = [
+  ['Education', [
+    {t:'BA, Linguistics & Communication', o:'University of Port Harcourt', s:2012, e:2016.5, w:'2012 – 2016', col:'violet', d:['Research focus: documenting endangered indigenous languages of Nigeria']},
+    {t:'MA, Communication Studies', o:'University of Port Harcourt', s:2019, e:2023.5, w:'2019 – 2023', col:'violet', d:['Research focus: framing, representation and public engagement with health issues']},
+    {t:'PhD, Journalism & Media Studies', o:'University of Port Harcourt', s:2024, e:2026.9, w:'2024 – present', col:'violet', d:['Research: generative AI and Nigerian Pidgin journalism','Focus: translation ethics and low-resource languages','Wider interest: AI and institutional change in newsrooms and higher education']}
+  ]],
+  ['Media & film', [
+    {t:'Studio Instructor', o:'Delta State Polytechnic, Oghara', s:2015.7, e:2016.1, w:'Sep 2015 – Jan 2016', col:'accent', d:['Supported practical studio and media-production learning']},
+    {t:'Programmes Video Editor', o:'Anambra Broadcasting Service, Awka', s:2018.6, e:2020, w:'Aug 2018 – Dec 2019', col:'accent', d:['Edited long-form TV programmes and short-form content','Worked with producers and reporters on visual stories']},
+    {t:'Out of the Dark (short film)', o:'Writer, director, editor', s:2021, e:2022, w:'2021', col:'accent', d:['Rhesus factor awareness film','49,000+ YouTube views']},
+    {t:'Video Editor, comedy skits', o:'Jaystar & Zeke Studio Africa', s:2021, e:2022, w:'2021', col:'sun', d:['Edited Nigerian comedy skits for social media','Creators included Mr Funny and Wonder D\'talk','Also edited wedding and ceremony videos'], lane:1}
+  ]],
+  ['AI & programmes', [
+    {t:'Chief Operations Officer', o:'MyAIFactChecker', s:2024.2, e:2026, w:'Mar 2024 – Dec 2025', col:'teal', d:['Launched and scaled an AI fact-checking tool to 15,000+ users','Managed product, media and partnership teams','Google for Startups Accelerator']},
+    {t:'Programme Lead, AI Journalism Fellowship', o:'FactCheckAfrica', s:2024.2, e:2026, w:'Mar 2024 – Dec 2025', col:'sun', d:['Programme for 75+ journalists across Africa','Curriculum, partnerships and communications','25+ sessions coordinated and moderated'], lane:1}
+  ]],
+  ['Comms & growth', [
+    {t:'Content & Media Strategist', o:'Global Activists Network, UK', s:2024.5, e:2026, w:'Jul 2024 – Dec 2025', col:'accent', d:['Content strategy for SDG changemakers','30% increase in audience engagement','Designed the 2024 Annual Report']},
+    {t:'Comms & Design Lead, Diabetes Outreach', o:'Delta Central Senatorial District', s:2025, e:2026.4, w:'2025 – 2026', col:'teal', d:['Designed all campaign materials','Reached 1,509 people in 8 LGAs'], lane:1},
+    {t:'Research, Growth & Authors Lead', o:'Jackobian', s:2026, e:2026.9, w:'2026 – present', col:'violet', d:['Content strategy and growth for an academic publishing platform','Manages the authors community','Published 6 books and courses, including 2 children\'s stories']},
+    {t:'Business Development Lead', o:'Adverion Nigeria Limited', s:2026.5, e:2026.83, w:'Jul 2026 – Oct 2026', col:'blue', d:['Built a CRM with Apps Script reminders for 3,000+ prospects','22 pilot sign-ups and 17 live advertiser campaigns','Handed over the pipeline in October 2026'], lane:1}
+  ]]
+];
+const tl = $('#tl');
+const pct = y => ((y - Y0) / span * 100);
+let ruler = '<div class="ruler"><span></span><div class="ticks">';
+for (let y = Y0; y <= Y1; y += 1) if ((y - Y0) % 2 === 0 || y === Y1) ruler += `<span style="left:${pct(y)}%">${y}</span>`;
+tl.innerHTML = ruler + '</div></div>';
+const allClips = [];
+tracks.forEach(([name, clips]) => {
+  const lanes = Math.max(...clips.map(c => (c.lane||0))) + 1;
+  const tr = el('div',{class:'track'}, `<span class="name">${name}</span>`);
+  const lane = el('div',{class:'lane'}); lane.style.height = (lanes * 44 + 8) + 'px';
+  clips.forEach(c => {
+    const b = el('button',{class:`clip b-${c.col}`, title:c.t}, c.t);
+    b.style.left = pct(c.s) + '%'; b.style.width = `calc(${pct(c.e) - pct(c.s)}% - 3px)`; b.style.top = (8 + (c.lane||0) * 44) + 'px';
+    b.onclick = () => selectClip(c, b); lane.appendChild(b); allClips.push([c,b]);
+  });
+  tr.appendChild(lane); tl.appendChild(tr);
+});
+const ph = el('div',{class:'playhead'}); tl.appendChild(ph);
+function selectClip(c, b){
+  allClips.forEach(([,x]) => x.classList.toggle('sel', x === b));
+  const laneEl = b.parentElement, tlRect = tl.getBoundingClientRect(), lr = laneEl.getBoundingClientRect();
+  ph.style.left = (lr.left - tlRect.left + lr.width * pct(c.s) / 100) + 'px';
+  const yr = Math.floor(c.s), mo = Math.round((c.s - yr) * 12) + 1;
+  $('#tc').textContent = `00:${yr}:${String(mo).padStart(2,'0')}:00`;
+  $('#tlTitle').textContent = c.t;
+  const sc = tl.parentElement; sc.scrollTo({left: Math.max(0, b.offsetLeft + 120 - sc.clientWidth/2), behavior:'smooth'});
+  $('#tlDetail').innerHTML = `<div><h3>${c.t}</h3><p class="org">${c.o}</p><p class="when">${c.w}</p></div><ul>${c.d.map(x=>`<li>${x}</li>`).join('')}</ul>`;
+}
+const startClip = allClips.find(([c]) => c.t === 'Research, Growth & Authors Lead');
+requestAnimationFrame(() => selectClip(startClip[0], startClip[1]));
+addEventListener('resize', () => { const s = allClips.find(([,b]) => b.classList.contains('sel')); if (s) selectClip(s[0], s[1]); });
+
+/* Publications */
+const pubs = [
+  ['2025','Navigating Housing in Lagos: Young Women, Digital Tools, and Urban Life','Youth in the City: Towards an African Feminist Urban Ethnography, Lagos Studies Association','Research','violet'],
+  ['2025','AI-Driven Surveillance in Nigerian Digital Journalism: Risks, Ethics, and Transparency','Paper presentation, AMCRON','Research','violet'],
+  ['2025','Artificial Intelligence and the Future of Journalism Practice','Paper presentation, ACCE, University of Calabar','Research','violet'],
+  ['2024','Evaluating the Impact of Film on Sickle Cell Disease Awareness amongst Residents of Obio/Akpor LGA, Rivers State','Health and New Media Research · with T. R. Osuagwu and K. C. Ikems','Research','violet','https://www.hnmr.org/m/journal/view.php?number=64'],
+  ['2024','Generative AI in Journalism: A Study on Misinformation and Information Integrity','International Conference, Dept. of Mass Communication, University of Nigeria, Nsukka','Research','violet'],
+  ['2024','Public Health Communication Strategies for the Sexual Health of Youths and Adolescents in Nigeria','E-poster, SAYPHIN Conference','Research','violet'],
+  ['2025','The Algorithmic Listener: How AI Is Counseling Nigeria\'s Youth','TheCable','Journalism','teal','https://www.thecable.ng/the-algorithmic-listener-how-ai-is-counseling-nigerias-youth/'],
+  ['2025','The Rise of Deepfakes and the Fight for Digital Truth','TheCable','Journalism','teal'],
+  ['—','Fact-check: Is the claim that people were killed in Mosogar, Delta State true?','FactCheck Elections','Journalism','teal','https://factcheckelections.org/factcheck-is-the-claim-that-people-were-killed-in-mosogar-delta-state-true/'],
+  ['2020','When They Ask How You Lived','Agbowo','Poetry','accent','https://agbowo.org/2020/10/05/when-they-ask-how-you-lived-prudence-okeoghene-emudianughe/'],
+  ['2019','Poems from Prudence Okeoghene Emudianughe','Parousia Magazine','Poetry','accent','https://parousiamag.com/2019/06/07/poems-from-prudence-okeoghene-emudianughe-parousia-magazine/'],
+  ['—','Conversation with the Girl','Barren Magazine','Poetry','accent','https://barrenmagazine.com/conversation-with-the-girl/'],
+  ['—','Indigenous Brilliance (anthology contribution)','Room Magazine','Poetry','accent','https://roommagazine.com/shop/indigenous-brilliance/'],
+  ['—','Creating Responsive Website Design','DEV Community','Technical','blue','https://dev.to/prudence97/creating-responsive-website-design-1mik'],
+  ['—','Creating a Repository on GitHub','DEV Community','Technical','blue','https://dev.to/prudence97/creating-a-repository-on-git-hub-3ao0'],
+  ['—','3 Steps to Export Images from Figma','DEV Community','Technical','blue','https://dev.to/prudence97/3-steps-to-export-images-from-figma-29p8']
+];
+const pf = $('#pubFilters'), pl = $('#pubs');
+['All','Research','Journalism','Poetry','Technical'].forEach((c,i) => { const b = el('button',{class:'chip',role:'tab','aria-selected':i===0},c); b.onclick = () => { [...pf.children].forEach(x=>x.setAttribute('aria-selected',x===b)); [...pl.children].forEach(r => r.classList.toggle('hide', c!=='All' && r.dataset.k!==c)); }; pf.appendChild(b); });
+pubs.forEach(p => {
+  const inner = `<span class="yr">${p[0]}</span><span class="t">${p[1]}${p[5]?' <span class="arr" aria-hidden="true">↗</span>':''}<span class="w">${p[2]}</span></span><span class="k b-${p[4]}">${p[3]}</span>`;
+  const r = p[5] ? el('a',{class:'pub','data-k':p[3],href:p[5],target:'_blank',rel:'noopener'},inner) : el('div',{class:'pub','data-k':p[3]},inner);
+  pl.appendChild(r);
+});
+
+/* Bookshelf */
+const J = 'https://www.jackobian.app/materials/';
+const books = [
+  {col:'accent', w:74, h:250, kind:'Novella', tag:'Children\'s fiction · Novella', t:'The Pity Stories', role:'For young readers', ctxTitle:'About the book', ctx:'Eleven-year-old Esosa is the new girl at school. Far from everything familiar, she discovers that people pay attention when they feel sorry for you. A small lie grows into a collection of sad stories, and soon she is trapped between the girl she pretends to be and the girl she wants someone to know.', didTitle:'What it explores', did:['Set in the familiar rhythms of Nigerian school and family life','Asks how far a child will go to be seen','Shows that a mistake does not have to define a life'], outTitle:'Themes', out:['Loneliness','Belonging','Honesty','Forgiveness'], link:[J+'the-pity-stories-CO4143767','Read on Jackobian ↗']},
+  {col:'teal', w:66, h:220, kind:'Children\'s story', tag:'Children\'s fiction · Climate', t:'When the Sky Turned Blue', role:'For young readers', ctxTitle:'About the book', ctx:'A story that celebrates young people who take action on climate change, and shows how passion, imagination and determination can help protect our shared future.', didTitle:'What it explores', did:['Climate change through a young reader\'s eyes','Young people as changemakers'], outTitle:'Themes', out:['Climate action','Imagination','Courage'], link:[J+'when-the-sky-turned-blue-CO8802008','Read on Jackobian ↗']},
+  {col:'violet', w:82, h:270, kind:'Book', tag:'Book · Journalism history', t:'Who Tells the Story?', role:'For students, journalists and curious readers', ctxTitle:'About the book', ctx:'Media, Power, and the Shaping of the World We Think We Know. The history of journalism told through the people, conflicts and decisions behind it, with global media history placed alongside the story of the Nigerian press.', didTitle:'Inside', did:['From the first newspapers of colonial Nigeria to mass media','Propaganda, wartime reporting and censorship','Biafra, Watergate and Dele Giwa','Nollywood, social media, disinformation and AI'], outTitle:'Big questions', out:['Media','Power','Truth','Accountability'], link:[J+'who-tells-the-story-CO3113910','Read on Jackobian ↗']},
+  {col:'sun', w:70, h:240, kind:'Study guide · JMS 100', tag:'Study guide · JMS 100', t:'The Weight of Words', role:'For undergraduate and postgraduate students', ctxTitle:'About the guide', ctx:'A study guide for mass communication and journalism students, running from the foundations of mass communication to AI, information disorder and entrepreneurial journalism.', didTitle:'Inside', did:['18 chapters across six thematic units','180 structured questions with model answers','Foundation, intermediate and advanced levels'], outTitle:'Topics', out:['Journalism','Fact-checking','Verification'], link:[J+'the-weight-of-words-CO7485061','Read on Jackobian ↗']},
+  {col:'blue', w:78, h:258, kind:'Textbook · PRAD 100', tag:'Textbook · PRAD 100', t:'PR in the Digital Age', role:'For PR and advertising students', ctxTitle:'About the book', ctx:'Public relations as a practical way to think about communication, trust and relationships, and about the gap between what organisations intend and how people understand them.', didTitle:'Inside', did:['How meaning and perception form','Why PR should guide decisions instead of following them','Communicating clearly when public judgment forms in real time'], outTitle:'Topics', out:['Trust','Perception','Digital communication'], link:[J+'public-relations-in-the-digital-age-CO7399725','Read on Jackobian ↗']},
+  {col:'accent', w:64, h:214, kind:'Video course', tag:'Video course · JMS 100', t:'Journalism in the New Age', role:'For emerging journalists and media creators', ctxTitle:'About the course', ctx:'A five-part recorded video course that brings together what every emerging journalist and media creator in Nigeria needs to do the work well.', didTitle:'Inside', did:['Five recorded video lessons','Fact-checking and verification'], outTitle:'Topics', out:['Journalism','Verification','Media creation'], link:[J+'journalism-in-the-new-age-CO8983151','Watch on Jackobian ↗']}
+];
+books.forEach(b => {
+  const s = el('button',{class:`book b-${b.col}`,'aria-haspopup':'dialog','aria-label':`${b.t}, ${b.kind}`},`<span class="bt">${b.t}</span><span class="bk">${b.kind}</span>`);
+  s.style.width = b.w + 'px'; s.style.height = b.h + 'px';
+  s.onclick = () => openCase(b); $('#shelf').appendChild(s);
+});
+
+/* Fellowships */
+[['Research Round Lune 3: AI, Humanities & Social Sciences Fellowship','2026'],['AI & Tech Accountability Reporting Fellowship, AI Collectives Nigeria','2025'],['National Health Fellowship','2025'],['Google for Startups Accelerator','2024'],['UNESCO Youth Hackathon','2024'],['African Centre for Strategic Communication','2024'],['Doctoral Academy of Nigeria','2023'],['Journalism Educators Foundation','2023'],['One World Media Global Short Docs Forum','2022'],['Yenching Global Symposium, Peking University','2022'],['Pan-African Women Entrepreneurship Network','2021'],['Tony Elumelu Entrepreneurship Programme, Finalist','2021']]
+ .forEach(f => $('#fellow').appendChild(el('span',{},`${f[0]}<em>${f[1]}</em>`)));
+
+/* Composer */
+const topics = {'A full-time role':'a role on our team','Consulting':'a consulting project','Research collaboration':'a research collaboration','Training & facilitation':'a training or facilitation engagement','AI & media project':'an AI and media innovation project','Speaking':'a speaking opportunity'};
+let chosen = new Set(['A full-time role']);
+const tp = $('#topics');
+Object.keys(topics).forEach(k => { const b = el('button',{'aria-pressed':chosen.has(k)},k); b.onclick = () => { chosen.has(k) ? chosen.delete(k) : chosen.add(k); b.setAttribute('aria-pressed', chosen.has(k)); draft(); }; tp.appendChild(b); });
+var draft = function(){
+  const list = [...chosen].map(k => topics[k]);
+  const what = list.length ? (list.length > 1 ? list.slice(0,-1).join(', ') + ' and ' + list.at(-1) : list[0]) : 'working together';
+  $('#msg').value = `Hi Prudence,\n\nI came across your website and I'd like to talk to you about ${what}.\n\nA bit about us: [who you are / your organisation]\nWhat we have in mind: [short description]\nTimeline: [dates]\n\nWould you be open to a short call?\n\nBest,\n[Your name]`;
+}
+draft();
+async function copy(text, okMsg, fallbackEl){
+  try { await navigator.clipboard.writeText(text); $('#toast').textContent = okMsg; }
+  catch { if (fallbackEl.select) fallbackEl.select(); else { const r = document.createRange(); r.selectNodeContents(fallbackEl); const s = getSelection(); s.removeAllRanges(); s.addRange(r); } $('#toast').textContent = 'Selected. Press Ctrl+C or ⌘C to copy.'; }
+  setTimeout(() => $('#toast').textContent = '', 3500);
+}
+$('#copyMsg').onclick = () => copy($('#msg').value, 'Copied. Paste it into an email to the address on the left.', $('#msg'));
+$('#copyMail').onclick = () => copy($('#email').textContent, 'Email address copied.', $('#email'));
+
+/* CV versions */
+const cvs = [
+  ['Strategic Communications & Media','accent','Communications, content strategy, media relations and AI in journalism.','Comms officer · Media strategist · PR'],
+  ['Academic CV','violet','Research interests, publications, paper presentations, teaching areas and referees.','Lecturer · Researcher · Fellowships'],
+  ['Participant Success & Programme Operations','sun','Programme coordination, user adoption, CRM automation and lifecycle management.','Programme manager · Participant success'],
+  ['Community Relations & CSR','teal','Community engagement, stakeholder coordination and public health communication.','Community relations · CSR · NGOs'],
+  ['Social Media Campaign Portfolio','blue','Campaign work for Global Activists Network and the diabetes sensitisation outreach.','Social media · Campaigns'],
+  ['Writing Samples','accent','A peer-reviewed health communication paper and a TheCable feature on AI.','Writing · Editorial · Research']
+];
+let cvReq = null;
+cvs.forEach(c => {
+  const card = el('article',{class:'cvcard reveal'},`<span class="doc" style="color:var(--${c[1]})">PDF</span><h3>${c[0]}</h3><p>${c[2]}</p><span class="status">Best for: ${c[3]}</span>`);
+  const b = el('button',{class:'btn small',style:'justify-self:start;margin-top:6px'},'Request this one →');
+  b.onclick = () => { cvReq = c[0]; draft(); location.hash = 'contact'; };
+  card.appendChild(b); $('#cvs').appendChild(card);
+});
+const _draft = draft;
+draft = function(){ _draft(); if (cvReq) $('#msg').value = $('#msg').value.replace('Would you be open to a short call?', `Could you send me your ${cvReq}? Would you also be open to a short call?`); };
+
+/* Router: each nav item is its own page */
+const views = [...document.querySelectorAll('[data-view]')].map(v => v.id);
+function route(){
+  const h = (location.hash || '#home').slice(1);
+  let target = document.getElementById(h);
+  let view = views.includes(h) ? h : (target ? target.closest('[data-view]')?.id : 'home') || 'home';
+  views.forEach(id => document.getElementById(id).classList.toggle('active', id === view));
+  document.querySelectorAll('#nav a').forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + view));
+  document.title = view === 'home' ? 'Prudence (Emudianughe) Nwanozie' : `${document.querySelector(`#nav a[href="#${view}"]`)?.textContent || ''} · Prudence Nwanozie`;
+  if (views.includes(h)) scrollTo({top:0, behavior:'instant'}); else if (target) target.scrollIntoView();
+  if (view === 'journey') { const s = allClips.find(([,b]) => b.classList.contains('sel')) || startClip; requestAnimationFrame(() => selectClip(s[0], s[1])); }
+  document.querySelectorAll(`#${view} .reveal`).forEach(n => { n.classList.remove('in'); requestAnimationFrame(() => n.classList.add('in')); });
+}
+addEventListener('hashchange', route);
+route();
+
+$('#menuBtn').onclick = () => { const n = $('#nav'), o = n.classList.toggle('open'); $('#menuBtn').setAttribute('aria-expanded', o); };
+document.querySelectorAll('#nav a').forEach(a => a.addEventListener('click', () => { $('#nav').classList.remove('open'); $('#menuBtn').setAttribute('aria-expanded', false); }));
+
+/* Gentle reveal (content is visible at rest; this only nudges position) */
+const rIO = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); rIO.unobserve(e.target); } }), {threshold:.1});
+document.querySelectorAll('.reveal').forEach(n => rIO.observe(n));
+</script>
+
+</body>
+</html>
